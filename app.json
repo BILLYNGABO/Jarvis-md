@@ -27,7 +27,7 @@
         "WARN_COUNT": {
             "description": "warn count",
             "required": true,
-            "value":"3"
+            "value":"1"
         },
         "MEDIA_DATA": {
             "description": "media data that uses in list",
@@ -68,8 +68,8 @@
         },
         "ALLWAYS_ONLINE": {
             "description": "show bot number last seen as online",
-            "required": false,
-            "value":"false"
+            "required": true,
+            "value":"true"
         },
         "READ_MSG": {
             "description": "Read all messages",
@@ -83,8 +83,8 @@
         },
         "STATUS_VIEW": {
             "description": "status views use true for view all status or use only-view=jid to only view given jid status or use not-view=jid to not view the one person status and view anothers",
-            "required": false,
-            "value":"false"
+            "required": true,
+            "value":"true"
         },
         "REJECT_CALL": {
             "description": "automatic reject call",
@@ -94,7 +94,7 @@
         "ERROR_MSG": {
             "description": "send error messages to bot number",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "BAN_CHATS": {
             "description": "ban chat from useing bot value: jid1,jid2",
